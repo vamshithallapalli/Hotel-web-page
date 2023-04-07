@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9e15c33549.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,800&display=swap" rel="stylesheet">
+    <title>Hotel</title>
+</head>
+<body>
+    <section class="hero-section">
+    <div class="hero-text">
+        <h1>Welcome to Paradise Hotel</h1>
+      <p style="font-size:15px; margin:10px;">We Provide rooms at a very good price along with great amenities to make your living experience awesome</p>
+      <button class="book-button">Book</button>
+    </div>
+    </section>
+    <h1 class="about-heading">About Us</h1> 
+    <section class="about-section">
+      
+      <div class="about-us">
+         <p>A hotel is an establishment that provides paid lodging on a short-term basis.
+           <br> A hotel is an establishment that provides paid lodging on a short-term basis
+            <br>A hotel is an establishment that provides paid lodging on a short-term basis
+         </p>
+         <div class="know-more-container">
+      <button class="know-button">Know more...</button>
+      </div>
+        </div>
+        <div class="amenities">
+            <h3>Amenities we have:</h3>
+            <ul>
+                <li><i class="fa-solid fa-wifi"></i>High speed Internet</li>
+                <li><i class="fa-solid fa-mug-saucer"></i>Complementary Breakfast</li>
+                <li><i class="fa-solid fa-person-swimming"></i>Swimming pool</li>
+                <li><i class="fa-solid fa-dumbbell"></i>Gym</li>
+                <li><i class="fa-solid fa-cookie-bite"></i>Cafeteria</li>
+            </ul>
+        </div> 
+
+    </section>
+    <h1 class="room-heading">Room Types</h1>
+    <section class="room-type-container">
+        <div class="room-images">
+        <img src="room.jpg" alt="room-image">
+
+        </div> 
+       <div class="room-list">
+        <h4>Single Occupancy Room</h4>
+        <p>A single room is intended to sleep one person and most likely has one king or queen bed in the room</p>
+        <h4>Family Room</h4>
+        <p>Generally a family room means the room is larger than the standard room and will accommodate 4- 6 people, usually with an extra twin bed or sleeper sofa.</p>
+        <h4>Duplex Room</h4>
+        <p>It's a two-level room. It consists of at least one bedroom on one floor and a living room or bedroom on the second floor. You can also find more bedrooms on any of the floors</p>
+       </div> 
+       </section>
+       <div class="help-button">
+        <h4>Need Help?</h4>
+       </div>
+       <h2 class="form-heading">Fill the form for booking room</h2>
+       <section class="form-container">
+        <form>
+         <div class="form-group">
+            <label for="name">Full Name</label><br>
+            <input type="text" id="name" required>
+         </div>
+
+         <div class="form-group">
+            <label for="email">Email Id</label><br>
+            <input type="email" id="email" required>
+         </div>   
+         <div class="form-group">
+          <label for="booking-date">Date of Booking</label><br>
+          <input type="date" id="booking-date" required> 
+          </div> 
+         <div class="form-group">
+           <label for="room-type">Select Room Type</label><br>
+           <select name="room type" id="room-type" required>
+            <option value="" selected disabled>Select.. </option>
+            <option value="single room " required>Single Room </option>
+            <option value="family room " required>Family Room</option>
+            <option value="duplex room " required>Duplex Room</option>
+           </select> 
+         </div> 
+         <input type="submit" value="Book">
+        </form>
+       </section>
+    
+</body>
+</html>
